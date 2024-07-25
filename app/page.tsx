@@ -1,24 +1,26 @@
+import FAQPage from "@/components/homepage/FAQPage";
+import IntroPage from "@/components/homepage/IntroPage";
+import LandingPage from "@/components/homepage/LandingPage";
+import ServicesPage from "@/components/homepage/ServicePage";
+import Header from "@/components/main/Header";
+import Services02 from "@/components/samples/Services02";
+import Footer from "@/components/Sub/Footer";
+import Pricing from "@/components/Sub/solution";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen ">
-      <div className="w-full grid grid-cols-10 h-full gap-6">
-        <div className="w-full h-full col-span-1">
-        </div>
-        <div className="w-full h-full flex-col gap-4 col-span-6 justify-center flex ">
-          <h2>Magnetize with us</h2>
-          <p className="w-full text-4xl">
-            We are a dynamic digital marketing agency with a passion for innovation and a commitment to excellence.
-          </p>
-        </div>
-        <div className="w-full flex-col col-span-2 bg-red-500 h-full flex justify-center text-white font-semibold text-xl items-center">
-          <h2>Media</h2>
-          <h2>Magnet</h2>
-        </div>
-        <div className="w-full col-span-1">
-        </div>
+    <div className="">
+      <Header />
+
+      <div className="front-layer">
+        <LandingPage />
+        <IntroPage />
+        <Services02 />
       </div>
+      <Pricing />
+      <FAQPage />
     </div>
   );
 }

@@ -70,3 +70,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+.headr {
+  z-index: 99999;
+  position: absolute;
+  top: 10;
+}
+.front-layer {
+  z-index: 10;
+}
