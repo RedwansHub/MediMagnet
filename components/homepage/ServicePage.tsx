@@ -14,7 +14,7 @@ const ServicesPage = (props: Props) => {
           <h2>Our Services</h2>
           <div>
             <h3 className="w-full font-semibold text-3xl">
-            At Media Magnet, we don't just market,  
+            At Media Magnet, we don&apos;t just market,  
             </h3>
             <h3 className="w-full font-semibold text-3xl ">
             we create lasting digital impressions.  

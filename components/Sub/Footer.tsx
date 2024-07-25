@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
                         <h2 className='text-2xl '>Need a Digital Boost? 
                         </h2>
                         <h2 className='font-semibold px-2 text-3xl '>
-                            Let's Magnetize
+                            Let&apos;s Magnetize
                         </h2>
                         <Appointment />
 
